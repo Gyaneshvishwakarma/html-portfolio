@@ -162,3 +162,61 @@ form textarea {
     font-weight: 300;
     margin-top: 20px;
 }
+
+/* Mobile and Tablet Styles */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    #header {
+        height: auto; /* Adjust the header height */
+        background-position: top; /* Change background position */
+    }
+    
+    .container {
+        padding: 10px 5%; /* Adjust container padding */
+    }
+    
+    nav {
+        justify-content: space-around; /* Change navigation layout */
+    }
+    
+    nav ul li {
+        margin: 10px; /* Adjust margin */
+    }
+    
+    .header-text {
+        margin-top: 10%; /* Adjust header text margin */
+    }
+    
+    .header-text h1 {
+        font-size: 40px; /* Adjust font size */
+    }
+    
+    #about {
+        padding: 40px 0; /* Adjust padding */
+        margin-left: 0; /* Reset margin */
+    }
+    
+    .about-col-1,
+    .about-col-2 {
+        flex-basis: 100%; /* Make columns full width */
+    }
+    
+    .sub-title {
+        font-size: 24px; /* Adjust font size */
+    }
+    
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%; /* Make contact columns full width */
+    }
+    
+    .contact-left p i,
+    .social-icons a {
+        font-size: 20px; /* Adjust icon sizes */
+    }
+    
+    .contact-right form input,
+    .contact-right form textarea {
+        font-size: 16px; 
+    }
+}
